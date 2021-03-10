@@ -1,0 +1,12 @@
+meta:
+  version: "1.0"
+  publication_date: "20160213"
+
+content:
+  title: Mouvements du Ciel
+  heading:
+  brand:
+    no_dates: false
+  stream_fields:
+  - type: md_file
+    file: 20160213-12-mouvementsDuCiel.emd

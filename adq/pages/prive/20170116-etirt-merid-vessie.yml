@@ -1,0 +1,13 @@
+meta:
+  version: "1.0"
+  publication_date: "20170116"
+
+content:
+  title: Etirement du méridien de la vessie
+  heading:
+  brand:
+    no_dates: false
+  stream_fields:
+  - type: md_file
+    file: 20170116-etirt-merid-vessie.emd
+

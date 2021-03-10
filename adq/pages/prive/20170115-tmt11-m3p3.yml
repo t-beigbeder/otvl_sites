@@ -1,0 +1,12 @@
+meta:
+  version: "1.0"
+  publication_date: "20170115"
+
+content:
+  title: Traité des muscles et des tendons - Troisième mouvement - troisième partie
+  heading:
+  brand:
+    no_dates: false
+  stream_fields:
+  - type: md_file
+    file: 20170115-tmt11-m3p3.emd

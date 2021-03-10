@@ -1,0 +1,12 @@
+meta:
+  version: "1.0"
+  publication_date: "20200816"
+
+content:
+  title: Mentions légales
+  brand:
+    no_dates: true
+  stream_fields:
+  - type: md_file
+    file: mentions-legales.emd
+

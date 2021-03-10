@@ -1,0 +1,13 @@
+meta:
+  version: "1.0"
+  publication_date: "20200816"
+
+content:
+  title: Nous contacter
+  heading: Pour nous contacter
+  brand:
+    no_dates: true
+  stream_fields:
+  - type: md_file
+    file: contact.emd
+

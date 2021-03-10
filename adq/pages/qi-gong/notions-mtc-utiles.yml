@@ -1,0 +1,13 @@
+meta:
+  version: "1.0"
+  publication_date: 20200817
+
+content:
+  title: Notions de MTC utiles
+  heading:
+  brand:
+    no_dates: true
+  stream_fields:
+  - type: md_file
+    file: notions-mtc-utiles.emd
+

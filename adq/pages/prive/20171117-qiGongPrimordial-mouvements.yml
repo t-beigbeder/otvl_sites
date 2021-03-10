@@ -1,0 +1,13 @@
+meta:
+  version: "1.0"
+  publication_date: "20171117"
+
+content:
+  title: QI GONG PRIMORDIAL - MOUVEMENTS
+  heading:
+  brand:
+    no_dates: false
+  stream_fields:
+  - type: md_file
+    file: 20171117-qiGongPrimordial-mouvements.emd
+

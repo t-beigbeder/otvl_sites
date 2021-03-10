@@ -1,0 +1,28 @@
+meta:
+  version: "1.0"
+  creation_date: "20200911"
+  publication_date: "20200911"
+  last_update_date: "20200911"
+  summary_heading: "Informations pour la rentrée 2020"
+  summary: |
+    Toutes les Informations pour la rentrée 2020 sont ici...
+
+content:
+  title: Informations pour la rentrée 2020
+  heading: Informations pour la rentrée 2020
+  stream_fields:
+  - type: md_data
+    data: |
+      Une séance est prévue à Poucharramet le 19 septembre 10h 12h.
+      Ça se passera salle de la Commanderie, avec un masque pour entrer et sortir, mais pas sur les tapis...
+
+      Une autre séance dehors à Seysses, dans le parc municipal, rendez-vous au kiosque à 18h mercredi 23,
+      si le temps le permet... Sinon salle Stéphane Hessel.
+
+      Les séances se dérouleront ensuite aux horaires habituels:
+
+      - mardi 18h30 - 20h sur Zoom
+      - mercredi 18h - 19h45 à Seysses
+      - samedi 10h 12h à Poucharramet
+
+      Nous verrons au fur et à mesure pour les séances en extérieur.

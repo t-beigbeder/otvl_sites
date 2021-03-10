@@ -1,0 +1,13 @@
+meta:
+  version: "1.0"
+  publication_date: "20170116"
+
+content:
+  title: LES MOUVEMENTS DU DRAGON 1 à 5
+  heading:
+  brand:
+    no_dates: false
+  stream_fields:
+  - type: md_file
+    file: 20170226-dragon1setire.emd
+

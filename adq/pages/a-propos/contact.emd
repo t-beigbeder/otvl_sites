@@ -1,0 +1,8 @@
+L'affiche ci-dessous vous donne les coordonnées de Karine Beigbeder qui anime les séances:
+
+<div otvl-web>
+type: sf_q_img_in_card
+src: /assets/images/a-propos/contact.jpg
+alt: Image avec coordonnées de contact
+title: Affiche
+</div>
