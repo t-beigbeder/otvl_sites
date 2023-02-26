@@ -1,0 +1,32 @@
+meta:
+  version: "1.0"
+  creation_date: "20220620"
+  publication_date: "20220620"
+  last_update_date: "20220620"
+  priorite: "015"
+  categories:
+  - neuf
+  - rehabilitation
+  - habitat
+  photos:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+  - 4.jpg
+  - 5.jpg
+  - 6.jpg
+  - 7.jpg
+  - 8.jpg
+  - 9.jpg
+  - 10.jpg
+  - 11.jpg
+  - 12.jpg
+  plans:
+  - p1.png
+
+content:
+  title: Maison Bandeau
+  heading: Maison Bandeau
+  stream_fields:
+  - type: md_file
+    file: maison-bandeau.emd

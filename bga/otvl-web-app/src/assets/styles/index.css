@@ -1,0 +1,130 @@
+@tailwind base;
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/Nunito.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/Roboto.woff2) format('woff2');
+}
+
+.app-style {
+  @apply text-wrt bg-white;
+}
+
+.app-style h1 {
+  @apply text-3xl font-bold uppercase;
+}
+.app-style h2 {
+  @apply text-3xl uppercase;
+}
+.app-style h3 {
+  @apply text-xl font-bold uppercase;
+}
+.app-style h4 {
+  @apply text-xl uppercase;
+}
+.app-style h5 {
+  @apply text-lg font-bold uppercase;
+}
+.app-style h6 {
+  @apply text-lg uppercase;
+}
+.page-content p {
+  @apply pt-2 text-justify
+}
+
+.page-content .v-img {
+  display: block;
+  @apply shadow-md rounded w-full mx-auto mt-4
+}
+
+.v-a-propos-img {
+    @apply w-full mx-auto my-4
+}
+
+.v-desktop-menu-item {
+  display: block;
+  @apply mt-12 mx-4 text-center text-lg font-bold uppercase
+}
+
+.v-desktop-submenu-item {
+  display: block;
+  @apply text-center uppercase
+}
+
+.v-menu-bar {
+  @apply z-20 fixed top-0 w-full bg-menuGray
+}
+
+.v-touch-menu-container {
+  display: block;
+  @apply z-10 fixed top-12 w-52 px-6 pb-2 absolute bg-menuGray
+}
+
+.v-touch-menu-item {
+  display: block;
+  @apply mt-12 text-center text-lg font-bold uppercase
+}
+
+.v-touch-submenu-item {
+  display: block;
+  @apply text-center uppercase
+}
+
+.v-projects-category {
+  @apply text-left uppercase
+}
+
+.v-projects-category-sel {
+  @apply text-left uppercase border-b border-dotted border-wrt
+}
+
+.v-projects-index-container {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 md:gap-6 lg:gap-8
+}
+
+.v-projects-index-box {
+  @apply mt-8;
+}
+
+.v-project-photos-container {
+  @apply pt-6 grid grid-cols-3 gap-3
+}
+
+.v-project-plans-container {
+  @apply pt-6 pl-0 md:pl-6 flex flex-wrap
+}
+
+.v-photo-gallery-top {
+  @apply z-40 fixed top-0
+}
+
+.v-photo-gallery-main {
+  @apply z-30 h-screen w-full top-0 left-0 fixed bg-galleryGray bg-opacity-95
+}
+
+.h-photo-gallery {
+  height: 98vh;
+}
+
+.v-photo-set-container {
+  @apply grid grid-cols-2 gap-3
+}
+
+.lr-cursor {
+  @apply cursor-pointer
+}
+
+.v-sf-fiche-technique {
+  @apply mt-4 text-sm font-sans leading-tight
+}
+
+@tailwind components;
+@tailwind utilities;

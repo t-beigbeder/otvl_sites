@@ -1,0 +1,29 @@
+meta:
+  version: "1.0"
+  creation_date: "20211102"
+  publication_date: "20211102"
+  last_update_date: "20211102"
+  priorite: "080"
+  categories:
+  - neuf
+  - equipement
+  - professionnel
+  photos:
+  - 1.png
+  - 2.png
+  - 3.png
+  - 4.jpg
+  - 5.png
+  - 6.jpg
+  - 7.png
+  - 8.png
+  - 9.png
+  plans:
+  - p1.png
+
+content:
+  title: Fritkot
+  heading: Fritkot
+  stream_fields:
+  - type: md_file
+    file: a-fritkot.emd

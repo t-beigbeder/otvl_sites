@@ -1,0 +1,29 @@
+version: "3.4"
+
+services:
+
+  app:
+    build:
+      context: .
+      dockerfile: otvl-web-app/Dockerfile
+    image: ${OTVL_WEB_REGISTRY:-otvl-dkr-host:9080}/otvl-web-adq-app:${OTVL_WEB_VERSION:-v2.0.0}
+    ports:
+      - "8082:80"
+    environment:
+      - OTVL_WEB_SERVER_NAME=${OTVL_WEB_SERVER_NAME:-otvl-dcdev-host}
+      - OTVL_WEB_APP_PORT=${OTVL_WEB_APP_PORT:-9443}
+      - OTVL_WEB_ENABLE_BOTS=${OTVL_WEB_ENABLE_BOTS:-}
+    volumes:
+      - ${OTVL_WEB_ASSETS_PATH:-./data/assets}:/assets
+
+  api:
+    build:
+      context: ./otvl_web/server
+    image: ${OTVL_WEB_REGISTRY:-otvl-dkr-host:9080}/otvl-web-adq-api:${OTVL_WEB_VERSION:-v2.0.0}
+    ports:
+      - "9092:9090"
+    environment:
+      - OTVL_WEB_LOGGING=${OTVL_WEB_LOGGING:-INFO}
+      - OTVL_WEB_FULL_ACCESS_LOG=${OTVL_WEB_FULL_ACCESS_LOG:-}
+    volumes:
+      - ${OTVL_WEB_APP_DATA_PATH:-./data}:/data

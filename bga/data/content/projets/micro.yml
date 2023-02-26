@@ -1,0 +1,24 @@
+meta:
+  version: "1.0"
+  creation_date: "20210330"
+  publication_date: "20211102"
+  last_update_date: "20211102"
+  priorite: "040"
+  categories:
+  - rehabilitation
+  - equipement
+  photos:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+  - 4.jpg
+  - 5.jpg
+  plans:
+  - p1.png
+
+content:
+  title: Aménagement d'une microcrèche
+  heading: Aménagement d'une microcrèche
+  stream_fields:
+  - type: md_file
+    file: micro.emd

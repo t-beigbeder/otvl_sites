@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href=/ >
+    <title>{{ content.title }}</title>
+    <meta charset=utf-8>
+    <link rel=icon type=image/ico href=statics/img/favicon.ico>
+  </head>
+  <body>
+    <div>
+{% if content.heading %}
+      <h1>{{ content.heading }}</h1>
+{% endif %}
+{% for sf in content.stream_fields %}
+{% if sf.type == "html" %}
+      <div>
+        {{ sf.content }}
+      </div>
+{% endif %}
+{% if sf.type == "sf-img" %}
+      <img
+        src="{{ sf.src }}"
+      {%- if 'alt' in sf %}
+        alt="{{ sf.alt }}"
+      {%- endif %}
+      {%- if 'title' in sf %}
+        title="{{ sf.title }}"
+      {%- endif %}
+      />
+{% endif %}
+{% if sf.type == "sf-fiche-technique" %}
+      <pre>{{ sf.content }}</pre>
+{% endif %}
+{% endfor %}
+{% for photo in meta.photos %}
+      <img
+        src="{{ server_config.assets_url }}images/{{ uri }}/1-PHOTOS/{{ photo }}"
+        alt="Photo # {{ loop.index }} du projet {{ content.title }}"
+        title="Photo # {{ loop.index }} {{ content.title }}"
+      />
+{% endfor %}
+{% for plan in meta.plans %}
+      <img
+        src="{{ server_config.assets_url }}images/{{ uri }}/2-PLANS/{{ plan }}"
+        alt="Plan # {{ loop.index }} du projet {{ content.title }}"
+        title="Plan # {{ loop.index }} {{ content.title }}"
+      />
+{% endfor %}
+    </div>
+  </body>
+</html>
