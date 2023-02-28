@@ -1,0 +1,25 @@
+meta:
+  version: "1.0"
+  creation_date: "20211102"
+  publication_date: "20211102"
+  last_update_date: "20211102"
+  priorite: "090"
+  categories:
+  - neuf
+  - equipement
+  photos:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+  - 4.jpg
+  - 5.jpg
+  - 6.png
+  plans:
+  - p1.jpg
+
+content:
+  title: Campus Santé
+  heading: Campus Santé
+  stream_fields:
+  - type: md_file
+    file: a-campus-sante.emd

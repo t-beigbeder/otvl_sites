@@ -1,0 +1,22 @@
+meta:
+  version: "1.0"
+  creation_date: "20210319"
+  publication_date: "20211102"
+  last_update_date: "20211102"
+  priorite: "060"
+  categories:
+  - rehabilitation
+  - habitat
+  photos:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+  plans:
+  - p1.png
+  
+content:
+  title: Réhabilitation d'une ferme ancienne
+  heading: Réhabilitation d'une ferme ancienne
+  stream_fields:
+  - type: md_file
+    file: rehabilitation-ferme-ancienne.emd

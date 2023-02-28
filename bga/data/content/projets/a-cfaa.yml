@@ -1,0 +1,28 @@
+meta:
+  version: "1.0"
+  creation_date: "20211102"
+  publication_date: "20211102"
+  last_update_date: "20211102"
+  priorite: "070"
+  categories:
+  - neuf
+  - rehabilitation
+  - equipement
+  - professionnel
+  photos:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+  - 4.jpg
+  - 5.jpg
+  - 6.jpg
+  plans:
+  - p1.png
+  - p2.png
+
+content:
+  title: CFA La Palme
+  heading: CFA La Palme
+  stream_fields:
+  - type: md_file
+    file: a-cfaa.emd

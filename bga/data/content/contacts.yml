@@ -1,0 +1,12 @@
+meta:
+  version: "1.0"
+  creation_date: "20211102"
+  publication_date: "20211102"
+  last_update_date: "20211102"
+
+content:
+  title: Contacts
+  heading: Contacts
+  stream_fields:
+  - type: md_file
+    file: contacts.emd

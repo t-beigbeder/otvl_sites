@@ -1,0 +1,12 @@
+meta:
+  version: "1.0"
+  publication_date: "20210119"
+
+content:
+  title: Documents et vidéos pour les adhérents
+  heading:
+  brand:
+    no_dates: true
+  stream_fields:
+  - type: md_file
+    file: documents.emd

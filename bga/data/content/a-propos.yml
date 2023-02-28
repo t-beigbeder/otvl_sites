@@ -1,0 +1,21 @@
+meta:
+  version: "1.0"
+  creation_date: "20211102"
+  publication_date: "20211102"
+  last_update_date: "20211102"
+  photos:
+  - nom: apropos1.jpg
+    path: images/a-propos
+    alt: Photo de l'agence de Prayssas
+    title: Agence de Prayssas
+  - nom: apropos2.jpg
+    path: images/a-propos
+    alt: Photo de l'agence de Bordeaux
+    title: Agence de Bordeaux
+
+content:
+  title: À propos
+  heading: À propos
+  stream_fields:
+  - type: md_file
+    file: a-propos.emd

@@ -1,0 +1,27 @@
+meta:
+  version: "1.0"
+  publication_date: "20200816"
+
+content:
+  title: Association "Les chemins de l'harmonie"
+  heading: Association "Les chemins de l'harmonie"
+  brand:
+    no_dates: true
+  stream_fields:
+  - type: md_data
+    data: |
+      ["Les chemins de l'harmonie"](https://www.journal-officiel.gouv.fr/associations/detail-annonce/associations_b/20110052/474)
+      est une association de loi 1901 qui a pour domaines d'activité:
+
+      - relaxation, sophrologie
+      - clubs de loisirs, relations
+
+      L'association est basée à Seysses (31600) en Haute-Garonne, non loin de Muret (31600):
+
+      10, rue Paul Eluard, 31600 Seysses
+
+      "Les chemins de l'harmonie" organise une séance de QI Gong hebdomadaire à Seysses
+      dans une salle que lui prête la mairie.
+
+      Plus de renseignements: veuillez vous reporter à la rubrique
+      "[[/a-propos/contact | À propos > Nous contacter]]".
