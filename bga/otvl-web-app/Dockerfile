@@ -16,8 +16,12 @@ RUN yarn install \
 FROM httpd:2.4
 COPY --from=build-stage /build/otvl-web-app/dist /srv/www/site1/web
 COPY otvl-web-app/shell /shell
+ADD otvl-web-app/shell/entrypoint.sh /
+
 COPY otvl-web-app/apache2/conf /usr/local/apache2/conf
 COPY otvl-web-app/apache2/web /srv/www/site1/web
+RUN chmod -R ugo+rwX /srv/www/site1/web /usr/local/apache2/logs
 ENV OTVL_WEB_SERVER_NAME demo.otvl.org
 ENV OTVL_WEB_APP_PORT 443
-CMD /shell/httpd-foreground.sh
+
+ENTRYPOINT /entrypoint.sh /shell/httpd-foreground.sh
