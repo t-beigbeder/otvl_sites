@@ -6,7 +6,7 @@ services:
     build:
       context: .
       dockerfile: otvl-web-app/Dockerfile
-    image: ${OTVL_WEB_REGISTRY:-otvl-dkr-host:9080}/otvl-web-adq-app:${OTVL_WEB_VERSION:-v2.0.2}
+    image: ${OTVL_WEB_REGISTRY:-otvl-dkr-host:9080}/otvl-web-adq-app:${OTVL_WEB_VERSION:-2.0.2}
     ports:
       - "8082:80"
     environment:
@@ -19,7 +19,7 @@ services:
   api:
     build:
       context: ./otvl_web/server
-    image: ${OTVL_WEB_REGISTRY:-otvl-dkr-host:9080}/otvl-web-adq-api:${OTVL_WEB_VERSION:-v2.0.2}
+    image: ${OTVL_WEB_REGISTRY:-otvl-dkr-host:9080}/otvl-web-adq-api:${OTVL_WEB_VERSION:-2.0.2}
     ports:
       - "9092:9090"
     environment:
