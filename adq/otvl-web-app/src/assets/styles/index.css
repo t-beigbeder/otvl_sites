@@ -101,6 +101,11 @@
   @apply shadow-md rounded mx-auto mt-4
 }
 
+.page-content .v-img-flat {
+  display: block;
+  @apply mx-auto
+}
+
 .page-content ul {
   @apply list-disc mt-4 pl-8
 }

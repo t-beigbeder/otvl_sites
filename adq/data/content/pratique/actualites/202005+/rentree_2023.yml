@@ -1,0 +1,15 @@
+meta:
+  version: "1.0"
+  creation_date: "20230902"
+  publication_date: "20230902"
+  last_update_date: "20230902"
+  summary_heading: "Informations pour la rentrée 2023"
+  summary: |
+    Toutes les Informations pour la rentrée 2023 sont ici...
+
+content:
+  title: Informations pour la rentrée 2023
+  heading: Informations pour la rentrée 2023
+  stream_fields:
+    - type: md_file
+      file: rentree_2023.emd
