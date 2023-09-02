@@ -3,7 +3,8 @@ type: sf-img
 src: /assets/images/actualites/soleil-64.png
 alt: Un soleil jaune
 title: Le soleil
-class_: v-img-std
+style: "display:block;"
+class_: mx-auto
 </div>
 
 Voici les infos pour la rentrée du QI GONG:
