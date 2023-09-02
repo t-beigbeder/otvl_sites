@@ -1,6 +1,6 @@
 <div otvl-web>
 type: sf-img
-src: /assets/images/actualites/soleil-64.jpg
+src: /assets/images/actualites/soleil-64.png
 alt: Un soleil jaune
 title: Le soleil
 class_: v-img-std
