@@ -1,0 +1,9 @@
+L'affiche ci-dessous vous donne les indications pour la journée du 13 janvier 2024.
+
+<div otvl-web>
+type: sf-img
+src: /assets/images/actualites/20240113-journee.webp
+alt: Image avec indications pour la journée du 13 janvier 2024
+title: Affiche
+class_: v-img-std
+</div>

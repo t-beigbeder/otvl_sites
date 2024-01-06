@@ -1,0 +1,15 @@
+meta:
+  version: "1.0"
+  creation_date: "20240106"
+  publication_date: "20240106"
+  last_update_date: "20240106"
+  summary_heading: "Journée QI Gong 13 janvier 2024"
+  summary: |
+    Nous vous proposons une journée QI Gong le 13 janvier 2024 à Rieumes.
+
+content:
+  title: "Journée QI Gong 13 janvier 2024"
+  heading: "Journée QI Gong 13 janvier 2024"
+  stream_fields:
+    - type: md_file
+      file: journee_20240113.emd
